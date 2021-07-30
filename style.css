@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+.top-area{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.half-part{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-part img{
+    height: 100%;
+}
+
+ h1{
+     font-size: 40px;
+ }
+
+ h1 span{
+     color: deeppink;
+ }
+
+ .hire-button{
+     text-decoration: none;
+     background:linear-gradient(45deg, deeppink, red);
+     color: white;
+     padding: 10px 40px;
+     border-radius: 5px;
+     font-weight: 700;
+ }
+
+ p {
+     color: dimgray;
+ }
+
+ .mid-area{
+     background-image: url("biography-bg.png");
+     background-repeat: no-repeat;
+ }
+
+ .cv-button{
+    text-decoration: none;
+    background:linear-gradient(45deg, deeppink, red);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.work-title{
+    text-align: center;
+}
+.work-area{
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+.part{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 3%;
+
+}
+.part img{
+    width: 100%;
+}
+
+.client-area{
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.reply{
+    margin: 100px 550px;
+    text-align: center;
+    background:linear-gradient(45deg, deeppink, red);
+    padding: 40px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.reply a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
